@@ -1,4 +1,4 @@
-package com.xiaozhao.oop;
+package com.xiaozhao.base;
 
 /**
  * final使用示例
@@ -15,6 +15,10 @@ public class FinalDemo {
     public FinalDemo() {
         // 编译错误，不能为final成员变量再次赋值
         //age = 25;
+    }
+
+    public FinalDemo(String name) {
+
     }
 
 
