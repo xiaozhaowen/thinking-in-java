@@ -1,7 +1,7 @@
 package com.xiaozhao.newthing;
 
 /**
- * Created by xiaozhao on 2017/12/25.
+ * 比较新鲜的东西
  */
 public class Person {
 
@@ -10,6 +10,7 @@ public class Person {
     /**
      * 代码块，里面的代码每次实例化对象的时候都会执行，而且早于构造函数
      */
+
     {
         age = 25;
     }

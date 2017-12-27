@@ -1,7 +1,7 @@
 package com.xiaozhao.access;
 
 /**
- * Created by xiaozhao on 2017/12/25.
+ * 访问修饰符
  */
 public class Student {
     private String s;

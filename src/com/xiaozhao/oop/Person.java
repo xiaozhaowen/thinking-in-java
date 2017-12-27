@@ -1,7 +1,7 @@
 package com.xiaozhao.oop;
 
 /**
- * Created by xiaozhao on 2017/12/26.
+ * 继承示例
  */
 public class Person {
 }

@@ -1,7 +1,8 @@
 package com.xiaozhao.oop;
 
 /**
- * Created by xiaozhao on 2017/12/26.
+ * final使用示例
+ *
  * 1） final 关键字可以修饰类，如果类修饰为final的话，则不能被继承
  * 2） java中const作为保留字，但是目前不能使用
  * 3） 声明常量方法为static final
