@@ -1,9 +1,8 @@
-import com.xiaozhao.access.Student;
-import com.xiaozhao.newthing.Person;
+import com.xiaozhao.oop.PolymorphicDemo;
 
 public class Main {
 
     public static void main(String[] args) {
-        Person person = new Person();
+
     }
 }
