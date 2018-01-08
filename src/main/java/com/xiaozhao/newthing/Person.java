@@ -1,5 +1,6 @@
 package com.xiaozhao.newthing;
 
+
 /**
  * 比较新鲜的东西
  */
@@ -17,6 +18,7 @@ public class Person {
 
     public Person() {
         System.out.println(age);
+
     }
 
     public int getAge() {
