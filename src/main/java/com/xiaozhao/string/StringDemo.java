@@ -83,21 +83,21 @@ public class StringDemo {
 
         String str1 = "Hello World";
         System.out.println("空格拆分");
-        for (String retval: str1.split(" ")){
+        for (String retval : str1.split(" ")) {
             System.out.println(retval);
         }
 
         // 必须使用 \\.  否则得不到想要的结果
         String str2 = "www.baidu.com";
         System.out.println("点拆分");
-        for (String retval: str2.split("\\.")){
+        for (String retval : str2.split("\\.")) {
             System.out.println(retval);
         }
 
         // 必须使用 \\|  否则得不到想要的结果
         String str3 = "www|baidu|com";
         System.out.println("竖线拆分");
-        for (String retval: str3.split("\\|")){
+        for (String retval : str3.split("\\|")) {
             System.out.println(retval);
         }
 
@@ -105,7 +105,7 @@ public class StringDemo {
         // 必须使用 \\*  否则得不到想要的结果
         String str4 = "Java,Python,Swift";
         System.out.println("星号拆分");
-        for (String retval: str4.split(",")){
+        for (String retval : str4.split(",")) {
             System.out.println(retval);
         }
     }

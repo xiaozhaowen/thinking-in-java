@@ -2,6 +2,9 @@ package com.xiaozhao.access;
 
 /**
  * 访问修饰符
+ *
+ * 1、类成员如果不写访问修饰符的话，默认为包权限，也就是说同一个包下是可以访问的
+ *
  */
 public class Student {
     private String s;
